@@ -5,14 +5,14 @@ Homebrew cask tap for [max2697](https://github.com/max2697) projects.
 ## Usage
 
 ```bash
-brew install --cask max2697/tap/<cask-name>
+brew install --cask --no-quarantine max2697/tap/<cask-name>
 ```
 
 Or tap first, then install:
 
 ```bash
 brew tap max2697/tap
-brew install --cask <cask-name>
+brew install --cask --no-quarantine <cask-name>
 ```
 
 ## Casks
@@ -24,11 +24,11 @@ brew install --cask <cask-name>
 ### RateLimited
 
 ```bash
-brew install --cask max2697/tap/ratelimited
+brew install --cask --no-quarantine max2697/tap/ratelimited
 ```
 
 Source: [max2697/RateLimited](https://github.com/max2697/RateLimited)
 
 ## Notes
 
-Apps in this tap are unsigned. Casks use `quarantine false` so macOS does not block them on first launch.
+Apps in this tap are unsigned. Use `--no-quarantine` so macOS does not block them on first launch.

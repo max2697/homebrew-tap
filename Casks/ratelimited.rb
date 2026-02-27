@@ -7,9 +7,6 @@ cask "ratelimited" do
   desc "Menu bar app for Claude and Codex usage limits"
   homepage "https://github.com/max2697/RateLimited"
 
-  # App is unsigned — disable Gatekeeper quarantine so it launches without prompts
-  quarantine false
-
   auto_updates true
   depends_on macos: ">= :sonoma"
 
