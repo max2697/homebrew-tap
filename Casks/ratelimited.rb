@@ -1,6 +1,6 @@
 cask "ratelimited" do
-  version "0.1.0"
-  sha256 "deabaa3da8f42bf35ef488a80358f44d8cb721c6234eeac0458333c1be234d19"
+  version "0.1.1"
+  sha256 "65408ea2b52bbc2a10adeb68fbdcc7f87386c04b6b0a7fa2819ff3088f2340b4"
 
   url "https://github.com/max2697/RateLimited/releases/download/v#{version}/RateLimited.app.zip"
   name "RateLimited"
