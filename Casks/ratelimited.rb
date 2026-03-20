@@ -7,7 +7,6 @@ cask "ratelimited" do
   desc "Menu bar app for Claude and Codex usage limits"
   homepage "https://github.com/max2697/RateLimited"
 
-  auto_updates true
   depends_on macos: ">= :sonoma"
 
   app "RateLimited.app"
